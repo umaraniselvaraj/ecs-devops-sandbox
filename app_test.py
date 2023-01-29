@@ -7,10 +7,9 @@ class TestApp(unittest.TestCase):
 
     def test_return_backwards_string(self):
         """Test return backwards simple string"""
-        random_string="This is my test string"
-        random_string_reversed="gnirts tset ym si sihT"
+        random_string = "This is my test string"
+        random_string_reversed = "gnirts tset ym si sihT"
         self.assertEqual(random_string_reversed, returnBackwardsString(random_string))
 
-
-    if _name_=="_main_":
-        unittest.main()
+if __name__ == "__main__":
+    unittest.main()
